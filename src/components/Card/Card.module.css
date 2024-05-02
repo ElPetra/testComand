@@ -1,10 +1,12 @@
 .card {
-    height: 551px;
+    height: 598px;
     max-width: 334px;
     width: 100%;
     background-color: #FFF;
     border-radius: 4px;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 .photo {
    height: 334px;
@@ -16,6 +18,7 @@
     padding: 24px;
     line-height: 28px;
     font-size: 24px;
+    flex-grow: 1;
 }
 .descr {
     font-size: 18px;
@@ -23,6 +26,7 @@
 .title {
     font-size: 20px;
     font-weight: 800;
+    text-align: center;
 }
 .price {
     font-size: 20px;
