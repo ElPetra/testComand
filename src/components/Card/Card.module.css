@@ -1,0 +1,30 @@
+.card {
+    height: 551px;
+    max-width: 334px;
+    width: 100%;
+    background-color: #FFF;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.photo {
+   height: 334px;
+   width: 100%;
+   object-fit: cover;
+   object-position: top;
+}
+.about {
+    padding: 24px;
+    line-height: 28px;
+    font-size: 24px;
+}
+.descr {
+    font-size: 18px;
+}
+.title {
+    font-size: 20px;
+    font-weight: 800;
+}
+.price {
+    font-size: 20px;
+    font-weight: 500;
+}
