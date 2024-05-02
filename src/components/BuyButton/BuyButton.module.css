@@ -1,0 +1,15 @@
+.buyButton {
+    justify-items: flex-end;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 20px;
+    border: 3px solid antiquewhite;
+    background-color:antiquewhite;
+    color:rgb(100, 58, 7);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.buyButton:hover {
+    background-color: white;
+    color:rgb(148, 130, 107);
+}

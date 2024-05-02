@@ -1,3 +1,4 @@
+import { BuyButton } from '../BuyButton/BuyButton'
 import s from './Card.module.css'
 
 export const Card = ({src, alt, animalType, animalName, gender, color, age, price}) => {
@@ -11,5 +12,6 @@ export const Card = ({src, alt, animalType, animalName, gender, color, age, pric
             <p className={s.descr}>Возраст: {age}</p>
             <p className={s.price}>Цена: {price}</p>
         </div>
+        <BuyButton/>
     </div>
 }
