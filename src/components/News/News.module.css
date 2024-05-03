@@ -40,10 +40,8 @@
   gap: 20px;
   /* flex-direction: column; */
 }
-.text{
-  padding: 5px;
-   margin-bottom: 20px;
-  text-align: start;
+.text{    
+  /* text-align: start; */
   
 }
 .text span{
